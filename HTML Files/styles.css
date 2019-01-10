@@ -1,0 +1,43 @@
+html{ 
+    font-family: Trebuchet MS; color: white;
+    min-height: 100%}
+        body{
+    background: -webkit-linear-gradient(left#4b0238, #ff33cc); 
+    background: -o-linear-gradient(left#4b0238, #ff33cc); 
+    background: -moz-linear-gradient(#4b0238, #ff33cc); 
+    background: linear-gradient(#4b0238, #ff33cc); 
+    background-color: #4b0238; 
+    
+    }
+    #welcome{
+        text-align: center;
+    }
+    #name{
+        text-align: center;
+    }
+    #img{
+        align-content: center;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
